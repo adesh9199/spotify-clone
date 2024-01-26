@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Assests/logo.png.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"> Home </a>
+                </div>
+                 <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search</a>
+                </div>
+
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="18" height="18"  fill="currentColor" class="bi bi-collection" viewBox="0 0 16 16">
+                            <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5z"/>
+                          </svg>
+                        <a href="#"> Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box"></div>
+               <div class="box">
+                   <p class="box-p1"> Create your first playlist</p>
+                   <p class="box-p2">it's easy, we'll help you</p>
+                   <button class="badge">Create Playlist</button>
+               </div>
+               <div class="box">
+                <p class="box-p1"> Let's find some  podcasts to follow</p>
+                <p class="box-p2">we'll keep you updated on new episodes</p>
+                <button class="badge">Browse Podcasts</button>
+            </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="nav-icons"> 
+                    <i class="fa-solid fa-chevron-left"></i>
+                    <i class="fa-solid fa-chevron-right hide"></i >
+                
+                </div>
+                    <div class="sticky-nav-options">
+                        <button class="badge nav-item hide">Explore Premium</button>
+                        <button class="badge nav-item dark-badge"> <i class="fa-regular fa-circle-down" style="margin-right:5px ;"></i>install App </button>
+                        <i class="fa-regular fa-user nav-item"></i></div>
+                
+            </div>
+            <!-- <div class="cards"> -->
+                <h2>Recently Played</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/ab67706f0000000254473de875fea0fd19d39037.jpeg" class="card-img"  alt="">
+                      <p class="card-title">lofi beats</p>
+                      <p class="card-info">chill beats, lofi vibes, new tracks every week....</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/hone do jo hota hai.jpg" class="card-img"  alt="">
+                      <p class="card-title">Hone do Jo Hota Hai</p>
+                      <p class="card-info">Savera, Lothika - Kho Gaye Hum Kahan...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/sawan me lg gyi aag.jpg" class="card-img"  alt="">
+                      <p class="card-title">PSawan Mein Lag Gayi Aag</p>
+                      <p class="card-info">Mika Singh,  Neha Kakkar, Badshah   ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/saki saki.jpg" class="card-img"  alt="">
+                      <p class="card-title">O Saki Saki</p>
+                      <p class="card-info">Batla House</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/animal.jpg" class="card-img"  alt="">
+                      <p class="card-title">Pehle Bhi Main</p>
+                      <p class="card-info">Vishal Mishra- ANIMAL...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/arjit.jpg" class="card-img"  alt="">
+                      <p class="card-title">Arijit Singh Radio</p>
+                      <p class="card-info">  Arijit Singh , Neha Kakkar, Pritam, KK ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/global.jpg" class="card-img"  alt="">
+                      <p class="card-title">Top50-Global</p>
+                      <p class="card-info">Your daily update of the most played tracks right now - Global.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/top 50.jpg" class="card-img"  alt="">
+                      <p class="card-title">Top50-India</p>
+                      <p class="card-info">Your daily update of the most played tracks right now - India.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/tamil.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Latest Love Tamil</p>
+                      <p class="card-info">  Check out the Latest Romance Tracks. Cover : Captain Miller</p> </div>
+                    <div class="card">
+                        <img src="./Assests/dance.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Latest Dance Telugu</p>
+                      <p class="card-info">Head to the dance floor with these latest tracks. Cover : Naa Saami Ranga</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/hindi.jpeg" class="card-img"  alt="">
+                      <p class="card-title">New Music Hindi
+                      <p class="card-info">Get the party started with 'Sher Khul Gaye' from Fighter!</p>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./Assests/making memories.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Making Memories</p>
+                      <p class="card-info">Karan Aujla . ikky . 2023</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/heeriye.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Heeriye (feat,Arijit Singh)</p>
+                      <p class="card-info">Jasleen Royal . Arijit Singh .Harrykahanhai</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/peaceful.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Peaceful Meditation</p>
+                      <p class="card-info">
+                        
+                        Breathe. Sense. Feel. Transcend</p>
+                    </div>
+                    <div class="card">
+                        <img src="./Assests/kabir Singh.jpeg" class="card-img"  alt="">
+                      <p class="card-title">Kabir Singh</p>
+                      <p class="card-info">
+                        Various Artists
+                        2019</p>
+                    </div>
+                </div>
+                <div class="footer">
+                  <div class="line"></div>
+                </div>
+            <!-- </div> -->
+        </div>
+        <div class="music-player">
+          <div class="album">
+            <img src="./Assests/heeriye.jpeg" alt=""><div>
+            <p style="font-weight: 700;">  Heeriye (feat,Arijit Singh )   </p> <br>
+            <p style="opacity: 0.8; font-size: small;"> Jasleen Royal . Arijit Singh .Harrykahanhai </p></div>
+            <i class="fa-regular fa-heart"></i>
+          </div>
+          <div class="player">
+            <div class="player-control">
+              <img src="Assests/player_icon1.png"  class="player-control-icon">
+              <img src="Assests/player_icon2.png"  class="player-control-icon">
+              <img src="Assests/player_icon3.png"  class="player-control-icon">
+              <img src="Assests/player_icon4.png"  class="player-control-icon">
+              <img src="Assests/player_icon5.png"  class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+              <span class="curr-time">00:00</span>
+              <input type="range" min="0" max="100"class="progress-bar" step="1">
+              <span class="tot-time">3:36</span>
+            </div>
+          </div>
+          <div class="control">
+
+          </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
